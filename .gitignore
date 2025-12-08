@@ -1,0 +1,22 @@
+*
+
+!.gitignore
+
+!README.md
+
+# cfg/
+# whitelist cfg/overrides
+!cfg/
+cfg/*
+!cfg/overrides/
+!cfg/overrides/**
+
+# custom/ # also additional vpk's from mastercomfig
+!custom/
+custom/*
+
+!custom/master*
+custom/*.cache
+
+!custom/comfig-custom/
+!custom/comfig-custom/**
